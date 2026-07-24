@@ -1,0 +1,175 @@
+{
+  "info": {
+    "_postman_id": "a51fae87-ea41-431e-9054-66ee0d5f9e9f",
+    "name": "API Shalom Textil",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51568778",
+    "_collection_link": "https://go.postman.co/collection/51568778-a51fae87-ea41-431e-9054-66ee0d5f9e9f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "localhost:8093/api/v1/detallePedido",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"cantidaDetPedido\": 10,\r\n    \"tallaDetPedido\": \"M\",\r\n    \"productoBase\": {\r\n        \"id_productoBase\": 1\r\n    },\r\n    \"catalogoDiseno\": {\r\n        \"id_catalogoDiseno\": 1\r\n    },\r\n    \"pedidoVenta\": {\r\n        \"id_pedido\": 1\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8093/api/v1/detallePedido",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "detallePedido"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8093/api/v1/pedidoVenta/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8093/api/v1/pedidoVenta/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "pedidoVenta",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8093/api/v1/inventarioSucursal/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8093/api/v1/inventarioSucursal/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "inventarioSucursal",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8093/api/v1/productoBase/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8093/api/v1/productoBase/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "productoBase",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8093/api/v1/catalogoDiseno/1",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8093/api/v1/catalogoDiseno/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "catalogoDiseno",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8093/api/v1/detallePedido/7",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8093/api/v1/detallePedido/7",
+          "host": [
+            "localhost"
+          ],
+          "port": "8093",
+          "path": [
+            "api",
+            "v1",
+            "detallePedido",
+            "7"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
