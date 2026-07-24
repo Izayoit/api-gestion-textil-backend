@@ -2,7 +2,7 @@
 
 ##  Estado del Proyecto
 Este proyecto representa el Backend para la gestión de una empresa del sector textil (Shalom). 
-Actualmente, la arquitectura de la base de datos relacional está diseñada en su totalidad (20 tablas) para cubrir toda la logística de la empresa. La API REST se encuentra en su primera fase de desarrollo (MVP), exponiendo los endpoints principales para la gestión transaccional del módulo de Pedidos y Detalles de Pedido.
+Actualmente, la arquitectura de la base de datos relacional está diseñada en su totalidad (20 tablas) para cubrir toda la logística de la empresa. La API REST se encuentra en su primera fase de desarrollo, exponiendo los endpoints principales para la gestión transaccional del módulo de Pedidos y Detalles de Pedido.
 
 ## Tecnologías Utilizadas
 *   **Lenguaje:** Java 17+
